@@ -1,0 +1,268 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height:100px;
+    width:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    background-image:url('logo.png');
+    background-size:100% 100%;
+    background-position: center;
+    height:70px;
+    width:140px;
+    margin:10px;
+}
+
+.lists ul{
+    display: flex;
+    margin-right:300px;
+}
+.list, #about{
+    color:grey;
+}
+
+.lists ul li{
+    margin:20px;
+    list-style: none;
+   
+}
+
+.lists ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 3 00;
+    color:black;
+}
+.sociel-icons{
+    padding: 20px;
+}
+
+.sociel-icons i{
+    margin:20px;
+    font-size: 25px;
+    color:grey;
+}
+
+/* container1 */
+.conatiner1{
+    padding:30px;
+    height:500px;
+    width:auto;
+}
+
+.box{
+    height:400px;
+    width:75%;
+    padding:30px;
+}
+.box h1{
+    margin-left:18px;
+    font-family:sans-serif;
+    font-size: 36px;
+}
+.box h2{
+    margin-left:18px;
+    margin:20px 18px;
+    font-family:sans-serif;
+    font-size: 20px;
+}
+
+.box p{
+   margin: 20px;
+   font-size:20px;
+   color:grey;
+   font-family:sans-serif;
+}
+
+
+/* Container2 */
+
+.container2{
+    height:500px;
+    width:auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.image-box{
+    height:400px;
+    width:400px ;
+    background-color: grey;
+    border-radius:50%;
+    background-image:url('myPic.png');
+    background-size:100% 100%;
+    background-position: center;
+}
+
+.para-box{
+    height:450px;
+    width:60%;
+    padding:40px;
+}
+.para-box h3{
+    margin:30px ;
+    font-size:25px;
+}
+
+.first{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.second{
+    font-size: 15px;
+    font-family:sans-serif ;
+    color:grey;
+}
+
+
+.para-box p{
+    margin:30px
+}
+
+
+/* container3 */
+
+.container3{
+    height:700px;
+    width:auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.boxex{
+    height:300px;
+    width:600px;
+    margin:10px;
+    padding:30px;
+}
+
+.boxex .fa-solid ,.fa-regular{
+   font-size: 40px;
+   margin: 20px;
+   color:grey;
+}
+
+.boxex h2 ,p{
+    margin:10px;
+    font-family: sans-serif;
+}
+
+.boxex h1{
+    font-size: 20px;
+}
+.boxex p{
+    font-size: 16px;
+    color:grey;
+}
+
+
+.container4{
+    height:600px;
+    width:auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.model{
+    height:300px;
+    width:400px;
+    margin:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    padding: 10px;
+}
+
+.image{
+    height:120px;
+    width:150px;
+}
+
+#image1{
+    background-image: url('circle.png');
+    background-position: center;
+    background-size: cover;
+}
+#image2{
+    background-image: url('D.png');
+    background-position: center;
+    background-size: cover;
+}
+#image3{
+    background-image: url('Danish.png');
+    background-position: center;
+    background-size: cover;
+}
+#image4{
+    background-image: url('penta.png');
+    background-position: center;
+    background-size: cover;
+}
+#image5{
+    background-image: url('lia.png');
+    background-position: center;
+    background-size: cover;
+}
+#image5{
+    background-image: url('gd.png');
+    background-position: center;
+    background-size: cover;
+}
+#image6{
+    background-image: url('reddot.png');
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* footer */
+footer{
+    height:350px;
+    width:auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo2{
+    height:80px;
+    width:150px;
+    background-image: url('white_logo.png');
+    background-position: center;
+    background-size: 100% 100%;
+    margin:8px;
+}
+
+.address{
+    height:100px;
+    width:200px;
+    color:white;
+    margin:10px;
+    text-align: center;
+}
+
+.sociel{
+    height:100px;
+    width:140px;
+}
+
+.sociel .fa-brands{
+    font-size: 30px;
+    color:grey;
+    margin:5px;
+    text-align: center;
+}
